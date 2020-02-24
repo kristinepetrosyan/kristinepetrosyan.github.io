@@ -1,11 +1,11 @@
 # Site settings
 author: Kristine Petrosyan
-title: 
+title: Going after my dreams!
 header-img: img/home-bg.png
 email: kristinelpetrosyan@gmail.com
 copyright_name: Kristine Petrosyan
 description: > # this means to ignore newlines until "baseurl:"
-  
+  How I decided to become a Data scientist
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kristinepetrosyan
