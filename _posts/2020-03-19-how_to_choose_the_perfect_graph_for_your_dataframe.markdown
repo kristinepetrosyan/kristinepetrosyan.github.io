@@ -31,7 +31,7 @@ ax.set_ylabel('Net Income', fontsize=20)
 ax.set_xlabel('Genre', fontsize=20)
 ```
 
-![]((home/angelo/Desktop/genre.png)
+
 2.In case you want to show composition, use one of these: Pie, Mekko, Stacked Column, Stacked Bar, Area or Waterfall.
 As an example we see Waterfall type of plot which is showing composition of sales and transactions.
 ```
@@ -41,7 +41,7 @@ my_plot.plot(step.index, step.values,'k')
 my_plot.set_xlabel("Transaction Types")
 my_plot.yaxis.set_major_formatter(formatter)
 ```
-![]((home/angelo/Desktop/waterfall2.png))
+
 3.In case you want to understand the distribution of your data, outliers, the normal tendency, and the range of values then you should use one of these charts: Scatter Plot, Mekko, Line, Column, Bar, histogram.
 
 As an example we can see a histogram which is showing runtime minutes distribution for movies which have high ratings. We see that 100 to 130 minutes are the highest in count.
@@ -50,7 +50,7 @@ import matplotlib.pyplot as plt
 df[‘runtime_minutes’].hist(bins=10)
 ```
 
-![](home/angelo/Desktop/hist.png)
+
 Runtime minutes of movies
 
 4. In case you want to know more information about how a data performed during a specific time period, then you are open to choose one of these charts: Line, Column, Dual-Axis-Line.
@@ -67,7 +67,7 @@ ax.xaxis.set_major_formatter(year_format)plt.plot(data_set.index, data_set['#Pas
 plt.plot(decomposition.trend.index, decomposition.trend, c='red')
 ```
 
-![](home/angelo/Desktop/data.png)
+
 
 5. In case you want to understand the relationship and show how something positively effects, has no effect, or negatively effects another variable, then you should go for Scatter Plot, Bubble or Line Chart.
 
@@ -79,7 +79,7 @@ df.plot.scatter(x='production_budget',
                       c='DarkBlue',
                       y='net_income',)
 ```
-![](home/angelo/Desktop/scatter.png)
+
 
 Hope this tutorial helped you understand more about charts and when to use them.
 
