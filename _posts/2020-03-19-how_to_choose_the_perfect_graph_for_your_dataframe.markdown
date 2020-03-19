@@ -35,6 +35,7 @@ ax.set_xlabel('Genre', fontsize=20)
 
 2.In case you want to show composition, use one of these: Pie, Mekko, Stacked Column, Stacked Bar, Area or Waterfall.
 As an example we see Waterfall type of plot which is showing composition of sales and transactions.
+
 ```
 import matplotlib.pyplot as plt
 my_plot = trans.plot(kind='bar', stacked=True, bottom=blank,legend=None, title="2014 Sales Waterfall")
@@ -56,6 +57,7 @@ df[‘runtime_minutes’].hist(bins=10)
 Runtime minutes of movies
 
 4. In case you want to know more information about how a data performed during a specific time period, then you are open to choose one of these charts: Line, Column, Dual-Axis-Line.
+
 ```
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdatesfig
@@ -81,7 +83,7 @@ df.plot.scatter(x='production_budget',
                       c='DarkBlue',
                       y='net_income',)
 ```
-![](https://miro.medium.com/max/1678/1*xAZ815RzCjRvaV5cE9q6MQ.png)
+![](https://miro.medium.com/max/760/1*aiFWGbylq7Sk8JvTqbHZnQ.png)
 
 Hope this tutorial helped you understand more about charts and when to use them.
 
