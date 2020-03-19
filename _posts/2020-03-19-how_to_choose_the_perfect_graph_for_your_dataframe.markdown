@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to choose the perfect graph for your dataframe?"
-date:       2020-03-19 16:18:17 +0000
+date:       2020-03-19 12:18:18 -0400
 permalink:  how_to_choose_the_perfect_graph_for_your_dataframe
 ---
 
