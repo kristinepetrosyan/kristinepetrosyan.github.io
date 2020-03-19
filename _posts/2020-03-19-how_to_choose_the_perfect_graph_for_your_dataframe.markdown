@@ -42,6 +42,7 @@ my_plot.plot(step.index, step.values,'k')
 my_plot.set_xlabel("Transaction Types")
 my_plot.yaxis.set_major_formatter(formatter)
 ```
+![](https://miro.medium.com/max/1300/1*gNhphKoGXKwpWcU7jmtD-Q.png)
 
 3.In case you want to understand the distribution of your data, outliers, the normal tendency, and the range of values then you should use one of these charts: Scatter Plot, Mekko, Line, Column, Bar, histogram.
 
@@ -51,7 +52,7 @@ import matplotlib.pyplot as plt
 df[‘runtime_minutes’].hist(bins=10)
 ```
 
-
+![](https://miro.medium.com/max/742/1*r4N-7AHdn0Oy-htECGYilw.png)
 Runtime minutes of movies
 
 4. In case you want to know more information about how a data performed during a specific time period, then you are open to choose one of these charts: Line, Column, Dual-Axis-Line.
@@ -67,7 +68,7 @@ ax.xaxis.set_major_locator(year)
 ax.xaxis.set_major_formatter(year_format)plt.plot(data_set.index, data_set['#Passengers'], c='blue')
 plt.plot(decomposition.trend.index, decomposition.trend, c='red')
 ```
-
+![](https://miro.medium.com/max/1678/1*xAZ815RzCjRvaV5cE9q6MQ.png)
 
 
 5. In case you want to understand the relationship and show how something positively effects, has no effect, or negatively effects another variable, then you should go for Scatter Plot, Bubble or Line Chart.
@@ -80,7 +81,7 @@ df.plot.scatter(x='production_budget',
                       c='DarkBlue',
                       y='net_income',)
 ```
-
+![](https://miro.medium.com/max/1678/1*xAZ815RzCjRvaV5cE9q6MQ.png)
 
 Hope this tutorial helped you understand more about charts and when to use them.
 
