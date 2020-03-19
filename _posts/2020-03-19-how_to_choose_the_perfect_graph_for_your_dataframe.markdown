@@ -31,6 +31,7 @@ ax.set_ylabel('Net Income', fontsize=20)
 ax.set_xlabel('Genre', fontsize=20)
 ```
 
+![](https://miro.medium.com/max/2114/1*HehpD89aBJK19hZey1Vt6w.png)
 
 2.In case you want to show composition, use one of these: Pie, Mekko, Stacked Column, Stacked Bar, Area or Waterfall.
 As an example we see Waterfall type of plot which is showing composition of sales and transactions.
