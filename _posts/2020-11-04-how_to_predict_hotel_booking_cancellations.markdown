@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to predict Hotel booking cancellations!"
-date:       2020-11-04 18:07:00 +0000
+date:       2020-11-04 13:07:02 -0500
 permalink:  how_to_predict_hotel_booking_cancellations
 ---
 
