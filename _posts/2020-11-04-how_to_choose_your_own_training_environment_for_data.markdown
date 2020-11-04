@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How to choose your own training environment for Data "
-date:       2020-11-04 18:38:15 +0000
+date:       2020-11-04 13:38:16 -0500
 permalink:  how_to_choose_your_own_training_environment_for_data
 ---
 
